@@ -21,7 +21,7 @@ The video file in dav format is cyclically pushed to the streaming server EasyDa
     ```
     ffmpeg.exe -re -stream_loop -1 -i NVR_ch11_main_20181217164115_20181217164718.dav -vcodec copy -f rtsp -rtsp_transport tcp rtsp://10.11.133.16:4008/admin.sdp
     ```
-    Note: "NVR_ch11_main_20181217164115_20181217164718.dav" is the video file name. "10.11.133.16" is replaced by your ip or 127.0.0.1.
+    **Note: "NVR_ch11_main_20181217164115_20181217164718.dav" is the video file name. "10.11.133.16" is replaced by your ip or 127.0.0.1.**  
     After success, as shown:
     <p>
       <img src="https://github.com/lcylmhlcy/RTSP_EasyDarwin/raw/master/img/5.png" width=600>
